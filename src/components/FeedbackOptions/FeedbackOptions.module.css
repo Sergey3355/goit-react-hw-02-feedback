@@ -1,0 +1,29 @@
+.button{
+    width: 100px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: darkslategray;
+    transition: all 600ms ease;
+   
+}
+.button:last-child{
+    margin-right: 0px;
+}
+
+.button:hover{
+    background-color: black;
+    color: gold;
+    box-shadow: 5px 5px 10px 4px gold;
+}
+
+.button:active{
+    background-color: green;
+    box-shadow: 5px 5px 10px 4px green;
+    transform: translate(0.5em, 0.25em);
+    transition: all 60ms ease;
+}

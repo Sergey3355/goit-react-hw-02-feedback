@@ -1,0 +1,12 @@
+.list{
+    color: goldenrod;
+    list-style: none;
+}
+.item{
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: oblique;
+    margin-right: 25px;
+}
