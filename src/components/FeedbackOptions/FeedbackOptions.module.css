@@ -27,3 +27,17 @@
     transform: translate(0.5em, 0.25em);
     transition: all 60ms ease;
 }
+
+.button:first-of-type:hover {
+    background-color: green;
+}
+
+.button:nth-of-type(even):hover{
+    background-color: gold;
+        color: black;
+}
+.button:last-child:hover{
+    background-color: red;
+    color: #72e5b1; 
+    
+}
